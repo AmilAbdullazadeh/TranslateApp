@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38c0f6f3-a5fb-4832-b45f-9a956c82149b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/context-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PageContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/LanguageContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/ThemeContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useToggleState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/FormStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/NavbarStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PageContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/LanguageContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/LanguageContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/ThemeContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/ThemeContext.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +49,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -85,6 +70,14 @@
       <workItem from="1610029564379" duration="14000" />
       <workItem from="1610376965636" duration="236000" />
       <workItem from="1610377245786" duration="6361000" />
+      <workItem from="1610384318712" duration="139000" />
+      <workItem from="1610435379457" duration="107000" />
+      <workItem from="1612330623257" duration="1102000" />
+      <workItem from="1612337901430" duration="5000" />
+      <workItem from="1612346186281" duration="1103000" />
+      <workItem from="1612372824397" duration="611000" />
+      <workItem from="1612418095658" duration="525000" />
+      <workItem from="1612513204776" duration="3736000" />
     </task>
     <servers />
   </component>
