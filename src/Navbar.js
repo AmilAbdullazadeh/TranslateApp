@@ -15,52 +15,53 @@ import {render} from "@testing-library/react";
 const content = {
     english: {
         search: "Search",
-        flag: "eng"
+        flag: "🇪🇪"
     },
     azerbaijan: {
         search: "Axtar",
-        flag: "aze"
+        flag: "🇦🇿"
     }
 }
 
-class Navbar extends Component {
-    static contextType =  ThemeContext
-    render() {
-        const {isDarkMode, toggleTheme} = this.context;
-        const {classes} = this.props;
-        return (
-            // <LanguageContext.Consumer>
-            //     {context => (
-            <div className={classes.root}>
-                <AppBar position="static" color={isDarkMode ? 'default' : 'primary'}>
-                    <Toolbar>
-                        <IconButton className={classes.menuButton} color="inherit">
-                            <span>🇦🇿</span>
-                        </IconButton>
-                        <Typography className={classes.title} variant="h6" color="inherit">
-                            App title
-                        </Typography>
-                        <Switch onChange={toggleTheme}/>
-                        <div className={classes.grow}/>
-                        <div className={classes.search}>
-                            <div className={classes.searchIcon}>
-                                <SearchIcon/>
-                            </div>
-                            <InputBase
-                                placeholder={`Search...`}
-                                classes={{
-                                    root: classes.inputRoot,
-                                    input: classes.inputInput
-                                }}
-                            />
+function Navbar(props) {
+    // static contextType =  ThemeContext
+
+    const {isDarkMode, toggleTheme} = useContext(ThemeContext);
+    const {language} = useContext(LanguageContext);
+    const {search, flag} = content[language]
+    const {classes} = props;
+    return (
+        // <LanguageContext.Consumer>
+        //     {context => (
+        <div className={classes.root}>
+            <AppBar position="static" color={isDarkMode ? 'default' : 'primary'}>
+                <Toolbar>
+                    <IconButton className={classes.menuButton} color="inherit">
+                        <span>{flag}</span>
+                    </IconButton>
+                    <Typography className={classes.title} variant="h6" color="inherit">
+                        App title
+                    </Typography>
+                    <Switch onChange={toggleTheme}/>
+                    <div className={classes.grow}/>
+                    <div className={classes.search}>
+                        <div className={classes.searchIcon}>
+                            <SearchIcon/>
                         </div>
-                    </Toolbar>
-                </AppBar>
-            </div>
-            // )}
-            // </LanguageContext.Consumer>
-        )
-    }
+                        <InputBase
+                            placeholder={`${search}...`}
+                            classes={{
+                                root: classes.inputRoot,
+                                input: classes.inputInput
+                            }}
+                        />
+                    </div>
+                </Toolbar>
+            </AppBar>
+        </div>
+        // )}
+        // </LanguageContext.Consumer>
+    )
 }
 
 export default withStyles(styles)(Navbar);

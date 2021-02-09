@@ -30,12 +30,11 @@ const words = {
     }
 };
 
-class Form extends Component  {
-    static contextType = LanguageContext;
+function Form (props)  {
+    // static contextType = LanguageContext;
 
-    render() {
-        const {classes} = this.props;
-        const {language, changeLanguage} = this.context;
+        const {classes} = props;
+        const {language, changeLanguage} = useContext(LanguageContext)
         const {email, password, rememberMe, signIn} = words[language];
 
         return (
@@ -65,7 +64,6 @@ class Form extends Component  {
                 </Paper>
             </main>
         )
-    }
 }
 
 export default withStyles(styles)(Form);
